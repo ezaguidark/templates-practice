@@ -18,3 +18,5 @@ RUN pip install -r requirements.txt
 
 # Copy the Django project
 COPY . /code/
+
+CMD [ "python", "manage.py", "runserver" ]
